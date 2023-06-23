@@ -26,7 +26,7 @@ def calculate_standard_deviation(prompts1, prompts2):
     return statistics.stdev(prompt_lengths)
 
 # Read the input CSV file
-with open(input_file, 'r') as file:
+with open(input_file, 'r', encoding='utf-8') as file:
     reader = csv.DictReader(file)
     good_prompts = [row['prompt'] for row in reader]
 
@@ -40,7 +40,7 @@ for prompt in good_prompts:
 std_dev = calculate_standard_deviation(good_prompts, generated_prompts)
 
 # Write the generated worse prompts to the output CSV file
-with open(output_file, 'w', newline='') as file:
+with open(output_file, 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     writer.writerow(['generated_prompt'])
     writer.writerows([[prompt] for prompt in generated_prompts])
