@@ -1,7 +1,7 @@
 import csv
 import random
 import statistics
-from nltk import word_tokenize
+from nltk.tokenize import word_tokenize
 from sklearn.linear_model import LinearRegression
 
 # Path to the input CSV file
