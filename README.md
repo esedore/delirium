@@ -1,8 +1,8 @@
-    Model Confustion Guide
+    # Model Confustion Guide
     
     Input generation: Develop a script or program that generates repetitive input patterns to be sent to the model. This script can generate similar keywords, attributes, or other relevant input parameters. Make sure to randomize certain aspects to mimic real-world variations.
 
-    Feedback generation: Similarly, create a script that generates incorrect or misleading feedback for the model. This script can provide feedback that contradicts the expected output or reinforces incorrect image features. Again, randomness can be introduced to simulate different types of incorrect feedback.
+    Feedback generation: Similarly, create a script that generates incorrect or misleading feedback for the model. This script can provide feedback that contradicts the expected output or reinforces incorrect image features. Again, randomness can be introduced to simulate different types of incorrect      feedback.
 
     Test case execution: Automate the execution of the generated input and feedback scripts against the target model. This can be done by integrating with the model's API or using appropriate web scraping techniques to interact with the front-end interface.
 
