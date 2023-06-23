@@ -1,7 +1,7 @@
 # Model Confustion Guide
 
 ## Methods & Rationale
-Currently this project aims to research methods which can spiral text to image AI models into a state of confusion & collapse
+Currently this project aims to research methods which can spiral text to image AI models into a state of confusion & collapse <br>
 The dataset of good text to image prompts used for "prompts.csv" comes from *[Krea-ai](https://docs.google.com/uc?export=download&id=1c4WHxtlzvHYd0UY5WCMJNn2EO-Aiv2A0)*
 
 ### Input generation: 
